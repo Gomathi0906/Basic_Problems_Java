@@ -25,8 +25,6 @@ class Main {
     // }
     
     public static void main(String[] args) {
-        Main obj = new Main();
-        System.out.println(obj.posOrneg(-1));
         // System.out.println(posOrneg(-10));
         
         /*// Positive or Negitive number - normal code written in main method
@@ -41,7 +39,7 @@ class Main {
         else {
             System.out.println("Zero");
         }*/
-        
-        
+        Main obj = new Main();
+        System.out.println(obj.posOrneg(-1));
     }
 }
