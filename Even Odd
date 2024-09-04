@@ -1,0 +1,19 @@
+
+public class Main{
+    public static void main(String[] args){
+        // Positive or Negitive number 
+        // num>0 +ve, num<0 -ve, num=0
+        int num = 5;
+        if(num>0) {
+            System.out.println("Positive Number");
+            if(num<0) {
+                System.out.println("Negitive Number");
+            }
+        }
+        else {
+            System.out.println("Zero");
+        }
+        
+        
+    }
+}
