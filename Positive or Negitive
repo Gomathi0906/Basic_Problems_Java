@@ -1,7 +1,35 @@
-
-public class Main{
-    public static void main(String[] args){
-        // Positive or Negitive number 
+import java.util.*;
+class Main {
+    boolean posOrneg(int num){ // creating a object in the main class so, no use of static.
+        if(num > 0){
+            return true;
+        }
+        else if(num == 0){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+    
+    // static boolean posOrneg(int num){ //  
+    //     if(num > 0){
+    //         return true;
+    //     }
+    //     else if(num == 0){
+    //         return true;
+    //     }
+    //     else{
+    //         return false;
+    //     }
+    // }
+    
+    public static void main(String[] args) {
+        Main obj = new Main();
+        System.out.println(obj.posOrneg(-1));
+        // System.out.println(posOrneg(-10));
+        
+        /*// Positive or Negitive number - normal code written in main method
         // num>0 +ve, num<0 -ve, num=0
         int num = 5;
         if(num>0) {
@@ -12,7 +40,7 @@ public class Main{
         }
         else {
             System.out.println("Zero");
-        }
+        }*/
         
         
     }
