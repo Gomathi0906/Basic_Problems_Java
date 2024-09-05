@@ -2,6 +2,10 @@ import java.util.*;
 class Main{
     // Sum of n natural Numbers
     
+   /* static int sumOfNaturalNumbers(int n) {
+        return n*(n+1)/2;
+    }*/
+    
     public static void main(String[] args) {
         int n=15;
         int sum = 0;
@@ -11,6 +15,10 @@ class Main{
             sum += i;
         }
         System.out.println(sum);
+        
+        // call the static method
+        /*System.out.println(sumOfNaturalNumbers(n));*/
+        
         //System.out.println( n*(n+1)/2);
     }
 }
