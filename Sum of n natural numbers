@@ -1,0 +1,18 @@
+import java.util.*;
+class Main{
+    // Sum of n natural Numbers
+    
+    public static void main(String[] args) {
+        int n=15;
+        int sum = 0;
+        
+        //Using for loop
+        for(int i = 1;i<=n;i++) {
+            sum += i;
+        }
+        System.out.println(sum);
+        //System.out.println( n*(n+1)/2);
+    }
+}
+
+
