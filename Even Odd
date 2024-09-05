@@ -1,19 +1,29 @@
-
-public class Main{
-    public static void main(String[] args){
-        // Positive or Negitive number 
-        // num>0 +ve, num<0 -ve, num=0
-        int num = 5;
-        if(num>0) {
-            System.out.println("Positive Number");
-            if(num<0) {
-                System.out.println("Negitive Number");
-            }
+import java.util.*;
+class Main{
+    // Check the number is Even or Odd
+   static int evenOrodd(int number) {
+        if(number%2 == 0) {
+            return 1;
         }
         else {
-            System.out.println("Zero");
+            return 0;
         }
+    }
+    
+   /* static boolean evenOrodd(int number) {
+        return number % 2 == 0;
+    }*/
+    
+    public static void main(String[] args) {
+        int num = 896;
+        // call the static method
         
-        
+        //if(evenOrodd(num)) {
+        if(evenOrodd(num) == 1) {
+            System.out.println("Even");
+        }
+        else{
+            System.out.println("Odd");
+        }
     }
 }
